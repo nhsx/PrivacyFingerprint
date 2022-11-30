@@ -7,6 +7,10 @@
 
 This repository holds the public view of code and materials for the Privacy Fingerprint -  a structured calculation of unstructured text privacy
 
+The NHS deal with huge amounts of sensitive data, structured and unstructured, which is private. Patient records, staff records, treatments, etc. all contribute to this corpus. Often this data is of value to researchers seeking new approaches to treatment, etc. but sharing such data with them is often challenging. This work seeks to quantify the privacy risk around their data (or subsets thereof). A ‘privacy fingerprint’ or ‘privacy risk score’ is desired to help articulate and quantify privacy risks. Of note, this is NOT a tool to anonymise or de-identify records – there are existing vendors of tools that seek to do this – but how can that risk be quantified in the first place? How might that risk score change after applying a particular privacy enhancing tool?
+ 
+This goes beyond first order PII – identifying gender, age or even name is relatively straightforward, but particular diseases such as rare ones, their symptoms, familial relationships, etc. may not be part of an existing ontology and rather entered as free text. A good example of this is mental health records that often are in a long story format, rather than existing SNOMED codes. The tool will need to judge privacy and derive a risk score based on factors such as these; and explain this score, perhaps through categories.
+
 _**Note:** Only public or fake data are shared in this repository._
 
 ### Project Stucture
