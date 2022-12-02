@@ -1,4 +1,4 @@
-# Placeholder/Template for any publihsed code
+# Placeholder/Template for any published code
 
 # Model Card: {PROJECT NAME}
 
